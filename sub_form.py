@@ -9,7 +9,6 @@ import plotly
 
 class sub_form(QtWidgets.QMainWindow):
     def __init__(self):
-        # UI_setting
         QtWidgets.QMainWindow.__init__(self, None)
         self.ui = uic.loadUi(os.path.abspath('plot.ui'), self)
         self.ui.show()

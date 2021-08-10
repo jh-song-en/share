@@ -13,7 +13,7 @@ class main_form(QtWidgets.QMainWindow):
         # Search tab
     @pyqtSlot()
     def browse(self):
-        sub_form()
+        self.foo = sub_form()
 
 
     def closeEvent(self, event):
